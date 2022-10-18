@@ -33,7 +33,7 @@
 
 **1- Clone this repository:**
 ```bash
-git clone https://github.com/luizfranzon/IPDiscover && cd App
+git clone https://github.com/luizfranzon/IPDiscover && cd IPDiscover/App
 ```
 **2- Install dependencies:**
 ```bash
