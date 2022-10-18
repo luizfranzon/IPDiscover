@@ -35,6 +35,10 @@ export const SpanText = styled.span`
   color: white;
   font-weight: bold;
   font-size: 2rem;
+
+  @media (max-width: 620px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const IpValue = styled.h1`
@@ -43,6 +47,19 @@ export const IpValue = styled.h1`
   display: flex;
   align-items: center;
   gap: 15px;
+
+  @media (max-width: 900px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 620px) {
+    font-size: 2.3rem;
+    gap: 0px;
+
+    svg {
+      display: none;
+    }
+  }
 `;
 
 export const CopyButton = styled.button`
